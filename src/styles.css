@@ -1,1 +1,120 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Nabvar component*/
+nav{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+li:hover{
+    color: #48CD9E;
+    cursor: pointer;
+}
+#logo{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+a{
+    color: #48CD9E;
+}
+/* Details */
+.initial{
+    color: #48CD9E;
+}
+
+/* MAIN */
+main{
+    margin: 50px 30px 50px 30px;
+    padding: 100px;
+}
+#title{
+    font-size: 100px;
+}
+.title-text{
+    width: 60%;
+}
+.header-btn{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding: 10px;
+}
+.btn{
+    padding: 0px 20px 0px 20px;
+    margin: 20px;
+    border-radius: 25px;
+    background-color: #48CD9E;
+    border: 0px;
+}
+
+/* BRAND */
+.brands{
+    display: flex;
+    text-align: center;
+}
+.brand{
+    padding: 10px;
+    width: 100%;
+}
+
+/* product filtler USING PICO.CSS!!! */
+.product-filter{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+.selection-filter{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.selection-filter:hover{
+    color: #48CD9E;
+}
+.select{
+    border-radius: 30px;
+}
+/* product details */
+.box{
+    /*border: solid 1px #48CD9E; */
+    padding: 20px;
+    height: 50vh;
+    margin: 30px;
+}
+
+.bar{
+    /* progress bar usign PICO.CSS*/
+    accent-color: #48CD9E;
+    color: #48CD9E;
+}
+/* footer */
+footer{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
